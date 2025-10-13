@@ -78,7 +78,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 6rem;
+    padding: 1rem 15rem;
 }
 
 #nav-bar  div   ul {
@@ -121,7 +121,7 @@ img {
     justify-content: space-evenly;
     flex-direction: row;
     text-align: center;
-    padding: 2rem 13rem;
+    padding: 2rem 17rem;
 }
 
 #bttn-row img {
@@ -148,10 +148,10 @@ img {
 }
 
 #fs-cards-container {
-    padding: 1rem 17rem;
+    padding: 1rem 27rem;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
 }
 
 .fs-cards {
@@ -196,10 +196,11 @@ img {
 #ss-text {
     margin: 0 25%;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 #ss-cards-container {
-    margin: 0 6rem;
+    margin: 0 15rem;
     display: flex;
     justify-content: space-between;
 }
@@ -208,4 +209,5 @@ img {
     border: 2px solid #2b2b2b;
     border-radius: 0.5rem;
     width: 49%;
+    height: 25rem;
 }
