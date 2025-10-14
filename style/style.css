@@ -10,7 +10,7 @@ html, body {
     font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
     background-color: #111111;
     color: #A6A6A6;
-    padding-top: 3rem;;
+    padding-top: 3rem;
 }
 
 button {
@@ -201,13 +201,149 @@ img {
 
 #ss-cards-container {
     margin: 0 15rem;
+    margin-bottom: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;;
 }
 
 .ss-cards {
-    border: 2px solid #2b2b2b;
+    border: 1px solid #2b2b2b;
     border-radius: 0.5rem;
     width: 49%;
-    height: 25rem;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.ss-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img-container {
+    background-color: #bea4443f;
+    padding: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.ss-card-txt {
+    background-color: #8d79323f;
+    padding: 0.2rem 0.4rem;
+    border-radius: 80rem;
+}
+
+.ss-card-header div p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.ss-card-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.destaque-cards {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.ss-card-desc {
+    font-size: 1rem;
+}
+
+.ss-card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;;
+    justify-content: space-between;
+}
+
+.ss-card-features {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b0a0a;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.ss-card-features p {
+    color: #fff;
+}
+
+.ss-card-features h4 {
+    color: #f83333;
+}
+
+#card-glow {
+    box-shadow: 0 0 10px #f2d158aa;
+}
+
+#header-glow {
+    background-color: #ecc73e;
+    font-weight: 600;
+}
+
+#header-glow p {
+    color: #000;
+}
+
+.ss-card-features-glow {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d6c8482f;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.ss-card-features-glow p {
+    color: #fff;
+}
+
+.ss-card-features-glow h4 {
+    color: #ffdb0d;
+}
+
+.advantages-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 15rem;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-bottom: 10rem;
+}
+
+.advantages-cards {
+    border: 1px solid #2b2b2b;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.advantages-cards h3 {
+    color: #fff;
+    font-weight: 600;
+}
+
+#ts-text {
+    margin: 0 25%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.tag {
+  background-color: #d4a52d47;
+  color: #000;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-weight: bold;
+  margin-top: 16px;
 }
