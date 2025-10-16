@@ -322,6 +322,7 @@ img {
 
 .advantages-cards {
     border: 1px solid #2b2b2b;
+    background-color: #1a1a1a;
     border-radius: 0.5rem;
     padding: 1.5rem;
     display: flex;
@@ -389,7 +390,7 @@ img {
 }
 
 .statistics-cards {
-    background-color: #7a6a2d3f;
+    background-color: #1a1a1a;
     padding: 0.8rem 2rem;
     border-radius: 0.5rem;
 }
@@ -400,4 +401,137 @@ img {
 
 .statistics-cards p {
     font-size: 1rem;
+}
+
+#contact-txt {
+    text-align: center;
+    margin: 0 35rem;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2rem 15rem;
+}
+
+#contact-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#contact-info h2 {
+    color: #fff;
+}
+
+.info-cards {
+    display: flex; 
+    gap: 1rem; 
+    align-items: center;
+    background-color: #1a1a1a;
+    border: 1px solid #2b2b2b;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    h4 {
+        color: #fff;
+        font-weight: 600;
+    }
+}
+
+#contact-message {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 45%;
+    background-color: #1a1a1a;
+    border: 1px solid #2b2b2b;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    
+    p {
+        color: #fff;
+    }
+    
+    h2 {
+        color: #fff;
+    }
+
+    button {                    /*AINDA É NECESSÁRIO ARRUMAR A ANIMAÇÃO DA IMAGEM*/
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        text-align: center;
+        cursor: pointer;
+
+        p {
+            color: #000;
+        }
+
+        img {
+            transition: transform 0.3s ease;
+        }
+
+        button:hover img {
+            transform: translateX(3rem);
+        }
+    }
+    
+}
+
+.input {
+    background-color: #111111;
+    border: 1px solid #2b2b2b;
+    border-radius: 0.5rem;
+    color: #fff;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: #535353;
+}
+
+#contact-model {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#nome-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nome-input {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#email-input {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#assunto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#mensagem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    input {
+        height: 5rem;
+        justify-content: start;
+    }
 }
