@@ -172,7 +172,7 @@ img {
 }
 
 .img-squares {
-    background-color: #bea4443f;
+    background-color: #7a6a2d3f;
     padding: 0.5rem;
     width: 3.2rem;
     height: 3.2rem;
@@ -223,7 +223,7 @@ img {
 }
 
 .img-container {
-    background-color: #bea4443f;
+    background-color: #7a6a2d3f;
     padding: 0.5rem;
     width: 3rem;
     height: 3rem;
@@ -317,11 +317,12 @@ img {
     margin: 0 15rem;
     justify-content: space-between;
     gap: 2rem;
-    padding-bottom: 10rem;
+    padding-bottom: 3rem;
 }
 
 .advantages-cards {
     border: 1px solid #2b2b2b;
+    border-radius: 0.5rem;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -340,10 +341,63 @@ img {
 }
 
 .tag {
-  background-color: #d4a52d47;
-  color: #000;
-  border-radius: 8px;
+  background-color: #7a6a2d3f;
+  color: #ecc73e;
+  border-radius: 1rem;
+  font-weight: 500;
   padding: 6px 12px;
-  font-weight: bold;
   margin-top: 16px;
+  width: fit-content;
+}
+
+.advantages-cards:hover {
+    border-color: #eccd4e;
+    transition: all 0.3s ease;
+    h3 {
+        color: #eccd4e;
+    }
+}
+
+#statistics-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    box-shadow: 0 0 1rem #f2d15867;
+    padding: 2rem 0;
+}
+
+#statistics-container h1 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+#statistics-txt {
+    margin-bottom: 1rem;
+}
+
+#statistics-txt p {
+    font-size: 1.2rem;
+}
+
+#statistics-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 26rem;
+}
+
+.statistics-cards {
+    background-color: #7a6a2d3f;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.statistics-cards h3 {
+    color: #f2d158;
+}
+
+.statistics-cards p {
+    font-size: 1rem;
 }
