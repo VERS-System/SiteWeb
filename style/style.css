@@ -1,21 +1,20 @@
-/* --- Variáveis CSS --- */
 :root {
-    --color-dark-bg: #111111; /* Cor de fundo principal */
-    --color-dark-sub: #070707; /* Cor de fundo do footer */
-    --color-text-main: #A6A6A6; /* Cor de texto padrão */
-    --color-text-light: #fff; /* Cor de texto em destaque (claro) */
-    --color-accent-main: #F2D058; /* Cor de destaque principal (amarelo/dourado) */
-    --color-accent-hover: rgba(242, 208, 88, 0.9); /* Cor de hover do botão */
-    --color-border-dark: #333333; /* Cor da borda mais escura */
-    --color-border-light: #2b2b2b; /* Cor da borda clara/divisória */
-    --color-card-bg: #1a1a1a; /* Cor de fundo dos cards */
-    --color-card-alert: #2b0a0a; /* Cor de fundo para alerta (Alternador Antigo) */
-    --color-card-alert-text: #f83333; /* Cor de texto para alerta */
-    --color-card-glow-bg: #d6c8482f; /* Fundo do card Solução VERS */
-    --color-card-glow-text: #ffdb0d; /* Texto do card Solução VERS */
-    --color-tag-bg: #7a6a2d3f; /* Fundo das tags e ícones */
-    --color-header-glow-bg: #ecc73e; /* Fundo do header da solução VERS */
-    --color-header-glow-text: #000; /* Texto do header da solução VERS */
+    --color-dark-bg: #111111;
+    --color-dark-sub: #070707;
+    --color-text-main: #A6A6A6;
+    --color-text-light: #fff;
+    --color-accent-main: #F2D058;
+    --color-accent-hover: rgba(242, 208, 88, 0.9);
+    --color-border-dark: #333333;
+    --color-border-light: #2b2b2b;
+    --color-card-bg: #1a1a1a;
+    --color-card-alert: #2b0a0a;
+    --color-card-alert-text: #f83333;
+    --color-card-glow-bg: #d6c8482f;
+    --color-card-glow-text: #ffdb0d;
+    --color-tag-bg: #7a6a2d3f;
+    --color-header-glow-bg: #ecc73e;
+    --color-header-glow-text: #000;
 }
 
 
@@ -39,7 +38,7 @@ button {
     font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
     cursor: pointer;
     border: none;
-    border-radius:  0.5rem;
+    border-radius: 0.5rem;
     padding: 0.7rem 1.2rem;
     transition: all 0.2s ease;
     box-shadow: 0 0 8px rgba(242, 208, 88, 0.3);
@@ -64,7 +63,7 @@ img {
     font-size: 3rem;
     padding-bottom: 1rem;
     font-weight: 700;
-    color: var(--color-accent-main);
+    color: var(--color-accent-main); 
     text-align: center;
 }
 
@@ -105,17 +104,17 @@ img {
     display: flex;
 }
 
-#nav-bar div  ul li {
+#nav-bar div ul li {
     padding: 0 0.5rem;
 }
 
-#nav-bar div  ul li p {
+#nav-bar div ul li p {
     color: var(--color-text-light);
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
-#nav-bar div  ul li p:hover {
+#nav-bar div ul li p:hover {
     color: var(--color-accent-main);
 }
 
@@ -127,7 +126,6 @@ img {
     width: 25%;
     padding: 3rem 0;
     filter: drop-shadow(0 0 20px #f2d15844);
-
 }
 
 #first-section {
@@ -177,8 +175,8 @@ img {
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
-    align-items: center;
-    justify-content: center; 
+    align-items: center; 
+    justify-content: center;
     text-align: center;
     background-color: var(--color-card-bg);
     border: 2px solid var(--color-border-light);
@@ -250,7 +248,7 @@ img {
 }
 
 .ss-card-txt {
-    background-color: #8d79323f; /* Não alterado para manter a transparência específica */
+    background-color: #8d79323f;
     padding: 0.2rem 0.4rem;
     border-radius: 80rem;
 }
@@ -467,7 +465,7 @@ img {
     border: 1px solid var(--color-border-light);
     border-radius: 0.5rem;
     padding: 1.5rem;
-
+    
     p {
         color: var(--color-text-light);
     }
@@ -475,7 +473,7 @@ img {
     color: var(--color-text-light);
     }
 
-    button {/*AINDA É NECESSÁRIO ARRUMAR A ANIMAÇÃO DA IMAGEM*/
+    button {
         display: flex; 
         justify-content: center;
         align-items: center;
@@ -487,9 +485,9 @@ img {
             color: var(--color-header-glow-text);
         }
 
-    img {
-        transition: transform 0.3s ease;
- }
+        img {
+            transition: transform 0.3s ease;
+        }
 
         button:hover img {
             transform: translateX(3rem);
@@ -507,7 +505,7 @@ img {
 }
 
 .input::placeholder {
-    color: #535353; /* Não alterado para manter a cor específica do placeholder */
+    color: #535353;
 }
 
 #contact-model {
@@ -617,7 +615,6 @@ footer {
         font-size: 1.1rem;
     }
 
-    /* Redução de Margens e Paddings para evitar scroll horizontal */
     #first-section {
         margin: auto 10%;
     }
@@ -626,21 +623,19 @@ footer {
         padding: 2rem 5%;
     }
 
-    /* Cards da Primeira Seção */
     #fs-cards-container {
         padding: 1rem 5%;
-        flex-wrap: wrap; /* Permite que os cards quebrem a linha */
+        flex-wrap: wrap;
         justify-content: center;
         gap: 2rem;
     }
     
     .fs-cards {
-        width: 45%; /* 2 cards por linha */
+        width: 45%;
         max-width: 300px;
         height: auto;
     }
 
-    /* Seção de Tecnologia */
     #ss-text, #ts-text {
         margin: 0 10%;
         margin-bottom: 3rem;
@@ -648,7 +643,7 @@ footer {
 
     #ss-cards-container {
         margin: 0 5%;
-        flex-direction: column; /* Coloca os cartões de comparação em coluna */
+        flex-direction: column;
         gap: 2rem;
         align-items: center;
     }
@@ -658,33 +653,30 @@ footer {
         max-width: 500px;
     }
 
-    /* Vantagens (3a Seção) */
     .advantages-container {
-        grid-template-columns: repeat(2, 1fr); /* 2 cards por linha */
+        grid-template-columns: repeat(2, 1fr);
         margin: 0 5%;
         gap: 1.5rem;
     }
     
-    /* Estatísticas */
     #statistics-container {
         margin: 0 5%;
     }
 
     #statistics-row {
         margin: 0 10%;
-        flex-wrap: wrap; /* Garante que os cards quebrem se necessário */
+        flex-wrap: wrap;
         justify-content: center;
         gap: 1rem;
     }
 
-    /* Contato */
     #contact-txt {
         margin: 0 10%;
     }
 
     #contact-container {
         margin: 2rem 5%;
-        flex-direction: column; /* Coloca as colunas de contato em pilha */
+        flex-direction: column;
         align-items: center;
     }
 
@@ -693,7 +685,6 @@ footer {
         max-width: 500px;
     }
 
-    /* Rodapé */
     .footer-sec {
         padding: 2rem 5%;
         flex-wrap: wrap;
@@ -703,13 +694,11 @@ footer {
 }
 
 
-/* Telas pequenas (e.g., Celulares) */
 @media (max-width: 768px) {
     html, body {
-        padding-top: 5rem; /* Mais espaço para o nav fixo no topo */
+        padding-top: 5rem;
     }
 
-    /* Títulos */
     .section-title {
         font-size: 2rem;
     }
@@ -722,14 +711,12 @@ footer {
         font-size: 1rem;
     }
 
-    /* Navegação */
     #nav-bar {
         flex-direction: column;
         justify-content: center;
         padding: 0.5rem 0;
     }
     
-    /* Oculta o menu de navegação e botões para focar na logo e call-to-action */
     #nav-bar div ul {
         display: none; 
     }
@@ -737,8 +724,6 @@ footer {
         display: none;
     }
 
-
-    /* Primeira Seção (Hero) */
     #main-img img {
         width: 70%;
         padding: 2rem 0;
@@ -750,7 +735,7 @@ footer {
 
     #bttn-row {
         padding: 1rem 0;
-        flex-direction: column; /* Botões em pilha */
+        flex-direction: column;
         gap: 1rem;
     }
 
@@ -763,7 +748,7 @@ footer {
 
     #fs-cards-container {
         padding: 1rem 5%;
-        flex-direction: column; /* Cards em pilha */
+        flex-direction: column;
         align-items: center;
     }
     
@@ -772,7 +757,6 @@ footer {
         max-width: none;
     }
 
-    /* Seção de Tecnologia (Comparação) */
     #ss-text, #ts-text {
         margin: 0 5%;
     }
@@ -785,13 +769,11 @@ footer {
         width: 100%;
     }
 
-    /* Vantagens */
     .advantages-container {
-        grid-template-columns: 1fr; /* 1 card por linha */
+        grid-template-columns: 1fr;
         margin: 0 5%;
     }
 
-    /* Estatísticas */
     #statistics-container {
         margin: 0 5%;
     }
@@ -802,7 +784,6 @@ footer {
         gap: 1rem;
     }
 
-    /* Contato */
     #contact-txt {
         margin: 0 5%;
     }
@@ -812,7 +793,7 @@ footer {
     }
 
     #nome-email {
-        flex-direction: column; /* Inputs de nome e email em pilha */
+        flex-direction: column;
         gap: 1.5rem;
     }
 
@@ -820,7 +801,6 @@ footer {
         width: 100%;
     }
 
-    /* Rodapé */
     .footer-sec {
         flex-direction: column;
         text-align: center;
@@ -829,7 +809,7 @@ footer {
 
     #credits {
         width: 100%;
-        order: 3; /* Move créditos para o final */
+        order: 3;
     }
     
     .lists {
@@ -840,4 +820,4 @@ footer {
             padding-left: 0;
         }
     }
-} 
+}
