@@ -1,3 +1,6 @@
 Lucas aragao - 
 confesso que olho para isso e apenas vejo inteligencia artificial, esta com cara de que um robo fez, eu vou trabalhar no figma e apos isso precisamos codar o site para subir em algum sistema de hospedagem. fora isso seria interessante aplicar o sistema de IA para sanar duvidas
 dos clientes, o Viber esta ai pra isso.
+
+Lucas Rodrigues - 
+Criaremos o worflow no n8n com a ElevenLabs para aprender a orquestrar workflows e, assim, ajudar na melhora e produtividade do siteweb junto a IA.
